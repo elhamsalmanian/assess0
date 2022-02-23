@@ -1,0 +1,12 @@
+[
+    {
+        "id": "1",
+        "categoryId": "1",
+        "question":
+          "how build the app ?",
+        "options": ["vinayak", "sarthak", "somil", "devesh"],
+        "answer": "vinayak",
+        "isDeleted": false
+        
+      }
+]
