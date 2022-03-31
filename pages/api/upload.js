@@ -82,18 +82,22 @@ export default async function handler(req, res) {
 
 
 
-/*If your app is a plain React.js app (without Next.js), there’s no pre-rendering, so you won’t be able to see the app if you disable JavaScript. For example:
+/*If your app is a plain React.js app (without Next.js), there’s no pre-rendering, 
+so you won’t be able to see the app if you disable JavaScript. For example:
 * Enable JavaScript in your browser and check out this page. This is a plain React.js app built with Create React App.
 * Now, disable JavaScript and access the same page again.
-* You won’t see the app anymore — instead, it’ll say “You need to enable JavaScript to run this app.” This is because the app is not pre-rendered into static HTML.
+* You won’t see the app anymore — instead, it’ll say “You need to enable JavaScript to run this app.” 
+This is because the app is not pre-rendered into static HTML.
 
 
 Two Forms of Pre-rendering;;
-Next.js has two forms of pre-rendering: Static Generation and Server-side Rendering. The difference is in when it generates the HTML for a page.
-* Static Generation is the pre-rendering method that generates the HTML at build time. The pre-rendered HTML is then reused on each request.
+Next.js has two forms of pre-rendering: Static Generation and Server-side Rendering. 
+The difference is in when it generates the HTML for a page.
+* Static Generation is the pre-rendering method that generates the HTML at build time. 
+The pre-rendered HTML is then reused on each request.
 * Server-side Rendering is the pre-rendering method that generates the HTML on each request.
 
-In development mode (when you run npm run dev or yarn dev), every page is pre-rendered on each request — even for pages that use Static Generation.
+In development mode every page is pre-rendered on each request — even for pages that use Static Generation.
 
 When to Use Static Generation v.s. Server-side Rendering ::
 We recommend using Static Generation (with and without data) whenever possible because your page can be built once and served by CDN, 
