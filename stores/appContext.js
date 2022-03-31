@@ -169,19 +169,7 @@ export const AppContextProvider = ({children}) =>{
         });  
     
       };
-    // const contextValue = useMemo(() => { 
-    //     return {
-    //         user, 
-    //         login, 
-    //         logout, 
-    //         register, 
-    //         departments,
-    //         getDepartments,
-    //         userTasks, 
-    //         getUserTasks, 
-    //         saveTask
-    //     };  
-    // }, [user, departments, userTasks]);
+   
     const contextValue = {
                         user, 
                         login, 
