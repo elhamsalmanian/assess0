@@ -136,8 +136,14 @@ Development vs. Production
 * In development (npm run dev or yarn dev), getStaticPaths runs on every request.
 * In production, getStaticPaths runs at build time.*/
 
+===========================================
+Reusable component: 
+/*piece of UI that can be used in various parts of an application to build more tahn one UI instance.
+For instance, we can have a button component display with different colors in several parts of our application. 
+Although it is the same button component when we provide it with a dataset (e.g color, or a function),
+it modifies itself and outputs a UI instance of the element */
 
-
-
+/*One advantage of creating a reusable input component is that you maintain the appearance of the input in various parts of your application.
+You can also determine what type of input component should be rendered (text, email, etc) by passing it a prop.*/
 
 
